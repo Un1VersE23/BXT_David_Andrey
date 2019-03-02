@@ -29,13 +29,13 @@ public class Minimum {
             x0 = scan.nextLong();
 
 
-            vasiliy();
+            vitlik();
 
         }
         
-        private void vasiliy()
+        private void vitalik()
         {
-            for(int i = 0;i < n;i++)
+            for(int k = 0;k < n;k++)
             {
                 x0 = (a * x0 * x0 + b * x0 + c) / 100 % 1000000;
 
