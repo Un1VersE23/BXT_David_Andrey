@@ -33,7 +33,7 @@ public class Minimum {
 
         }
         
-        private void kostya()
+        private void counting()
         {
             for(int i = 0;i < n;i++)
             {
