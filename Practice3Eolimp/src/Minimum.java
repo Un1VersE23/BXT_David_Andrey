@@ -29,6 +29,12 @@ public class Minimum {
             x0 = scan.nextLong();
 
 
+            count();
+
+        }
+        
+        private void count()
+        {
             for(int i = 0;i < n;i++)
             {
                 x0 = (a * x0 * x0 + b * x0 + c) / 100 % 1000000;
@@ -48,13 +54,12 @@ public class Minimum {
                     else st.push(Math.min(x0, st.lastElement()));
                     res += st.lastElement();
                 }
-
+             }
+            System.out.println(res);
+        }
 
 
             }
-            System.out.println(res);
-
-        }
 
 
 
