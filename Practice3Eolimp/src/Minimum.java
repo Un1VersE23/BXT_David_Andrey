@@ -29,11 +29,11 @@ public class Minimum {
             x0 = scan.nextLong();
 
 
-            count();
+            kostya();
 
         }
         
-        private void count()
+        private void kostya()
         {
             for(int i = 0;i < n;i++)
             {
